@@ -6,8 +6,25 @@ categoria, usa **IA para extrair campos a partir de fotos** e gera o **PDF ofici
 para upload no sistema da delegacia.
 
 !!! info "Projeto acadêmico"
-    Desenvolvido na disciplina de **EPS — FCTE/UnB**, em parceria com um delegado da
-    **PCDF**. Repositório: [FCTE-UNB-EPS5/ScanPC](https://github.com/FCTE-UNB-EPS5/ScanPC).
+    Desenvolvido na disciplina de **Engenharia de Produto de Software (EPS) — FCTE/UnB**,
+    em parceria com um delegado da **PCDF**.
+
+## Equipe e projeto
+
+| Item        | Detalhe                                                              |
+| ----------- | -------------------------------------------------------------------- |
+| Projeto     | App de Apreensão Policial (APP 2)                                    |
+| Disciplina  | Engenharia de Produto de Software                                    |
+| Cliente     | Delegado da PCDF                                                     |
+| Grupo       | 18                                                                   |
+| Repositório | [FCTE-UNB-EPS5/ScanPC](https://github.com/FCTE-UNB-EPS5/ScanPC)      |
+
+**Dupla:**
+
+| Nome                      | Matrícula |
+| ------------------------- | --------- |
+| João Manoel Barreto Neto  | 211039519 |
+| João Victor Costa Andrade | 211061977 |
 
 ## Contexto
 
