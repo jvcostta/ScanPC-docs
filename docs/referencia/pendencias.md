@@ -28,8 +28,8 @@ inventário, IA, PDF). O que falta depende principalmente de insumos do cliente.
 ## Segurança
 
 !!! danger "Rotacionar a chave Gemini"
-    Uma `GEMINI_API_KEY` foi exposta em conversa durante o desenvolvimento —
-    **rotacione-a** antes de publicar em repositório compartilhado.
+    A `GEMINI_API_KEY` não deve ser exposta durante o desenvolvimento. Caso aconteça:
+    **rotacione-a**.
 
 - `.env` (backend) e `.env.local` (frontend) estão no `.gitignore`.
 - A chave do Gemini e a service account do Firebase **nunca** devem ir para o Git.
