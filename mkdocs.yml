@@ -1,0 +1,89 @@
+site_name: ScanPC — App de Apreensão
+site_description: Documentação do ScanPC — app de inventário de apreensões policiais com extração por IA e geração de PDF.
+site_author: Equipe ScanPC — FCTE/UnB — EPS
+site_url: https://fcte-unb-eps5.github.io/ScanPC-docs/
+
+# Repositório PÚBLICO que hospeda esta documentação (o código do app vive no repo privado ScanPC).
+repo_name: FCTE-UNB-EPS5/ScanPC-docs
+repo_url: https://github.com/FCTE-UNB-EPS5/ScanPC-docs
+edit_uri: edit/main/docs/
+
+copyright: Projeto acadêmico FCTE/UnB — EPS · em parceria com a PCDF
+
+theme:
+  name: material
+  language: pt-BR
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Alternar para modo escuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Alternar para modo claro
+
+plugins:
+  - search:
+      lang: pt
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+nav:
+  - Início: index.md
+  - Arquitetura: arquitetura.md
+  - Backend:
+      - Visão geral: backend/visao-geral.md
+      - Camadas: backend/camadas.md
+      - Endpoints da API: backend/endpoints.md
+      - Configuração: backend/configuracao.md
+  - Frontend:
+      - Visão geral: frontend/visao-geral.md
+      - Estrutura: frontend/estrutura.md
+      - Estado e persistência: frontend/estado-persistencia.md
+  - Funcionalidades:
+      - Categorias: funcionalidades/categorias.md
+      - Extração por IA: funcionalidades/ia-extracao.md
+      - Geração de PDF: funcionalidades/pdf.md
+  - Guias:
+      - Como rodar: guias/como-rodar.md
+      - Contribuindo: guias/contribuindo.md
+  - Referência:
+      - Pendências e roadmap: referencia/pendencias.md
