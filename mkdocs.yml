@@ -1,11 +1,11 @@
 site_name: ScanPC — App de Apreensão
 site_description: Documentação do ScanPC — app de inventário de apreensões policiais com extração por IA e geração de PDF.
 site_author: Equipe ScanPC — FCTE/UnB — EPS
-site_url: https://fcte-unb-eps5.github.io/ScanPC-docs/
+site_url: https://jvcostta.github.io/ScanPC-docs/
 
 # Repositório PÚBLICO que hospeda esta documentação (o código do app vive no repo privado ScanPC).
-repo_name: FCTE-UNB-EPS5/ScanPC-docs
-repo_url: https://github.com/FCTE-UNB-EPS5/ScanPC-docs
+repo_name: jvcostta/ScanPC-docs
+repo_url: https://github.com/jvcostta/ScanPC-docs
 edit_uri: edit/main/docs/
 
 copyright: Projeto acadêmico FCTE/UnB — EPS · em parceria com a PCDF

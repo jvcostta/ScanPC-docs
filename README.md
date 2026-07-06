@@ -6,7 +6,7 @@ policial — FCTE/UnB, EPS). O código-fonte do app vive no repositório privado
 apenas para publicar a documentação no GitHub Pages (o Pages não publica a partir de
 repositórios privados no plano Free).
 
-📖 **Site publicado:** <https://fcte-unb-eps5.github.io/ScanPC-docs/>
+📖 **Site publicado:** <https://jvcostta.github.io/ScanPC-docs/>
 
 ## Stack da doc
 
@@ -36,7 +36,7 @@ Após o primeiro deploy, habilite o Pages em **Settings → Pages → Source: br
 
 ## Estrutura
 
-```
+```text
 mkdocs.yml                    # configuração do site
 docs/                         # conteúdo (Markdown)
   requirements.txt            # dependências da doc
